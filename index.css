@@ -82,22 +82,48 @@ li {
     color: #333;
 }
 
-
-.button-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.button-container a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #004d99;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.button-container a:hover {
-    background-color: #0066cc;
-}
+.button {
+    padding: 12px 24px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  .button:active {
+    background-color: #3d8c42; /* Even darker on active click */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
+ /* Image styling */
+ .image-container img {
+    width: 390px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
